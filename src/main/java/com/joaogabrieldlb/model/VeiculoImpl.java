@@ -1,6 +1,7 @@
 package com.joaogabrieldlb.model;
 
 import java.text.NumberFormat;
+import java.util.Locale;
 
 public abstract class VeiculoImpl implements Veiculo {
     private String placa;
@@ -24,7 +25,7 @@ public abstract class VeiculoImpl implements Veiculo {
 
     @Override
     public String toString() {
-        return "Tipo: "+this.getClass().getSimpleName()+ "\n\tPlaca: "+this.placa+"| Marca: "+this.marca+"| Modelo: "+this.modelo+"| Ano: "+this.ano+"| Valor: "+NumberFormat.getCurrencyInstance().format(this.valor);
+        return "Tipo: "+this.getClass().getSimpleName()+ "\n\tPlaca: "+this.placa+" | Marca: "+this.marca+" | Modelo: "+this.modelo+" | Ano: "+this.ano+" | Valor: "+NumberFormat.getCurrencyInstance(new Locale("pt", "BR")).format(this.valor);
     }
 
     @Override

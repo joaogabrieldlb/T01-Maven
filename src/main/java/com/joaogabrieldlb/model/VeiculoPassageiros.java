@@ -18,6 +18,6 @@ public class VeiculoPassageiros extends VeiculoImpl {
 
     @Override
     public String toString(){
-        return super.toString() + "| Numero Passageiros: "+ this.nroPass;
+        return super.toString() + " | Numero Passageiros: "+ this.nroPass;
     }
 }

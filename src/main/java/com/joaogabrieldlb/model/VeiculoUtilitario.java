@@ -21,6 +21,6 @@ public class VeiculoUtilitario extends VeiculoImpl {
 
     @Override
     public String toString(){
-        return super.toString() + "| Capacidade de carga(Kg): "+ this.capCargaKg +"| Eixos: "+this.nroEixos;
+        return super.toString() + " | Capacidade de carga(Kg): "+ this.capCargaKg +" | Eixos: "+this.nroEixos;
     }
 }
