@@ -1,5 +1,5 @@
 <h2>Fundamentos de Desenvolvimento de Software - Prof. Dr. Bernardo Copstein
-<br/>Projeto 01 - Desenvolvendo um projeto com uma equipe pequena</h2>
+<br/>Tarefa 01 - Exercício de fixação: uso do “Maven”</h2>
 
 <h4>Objetivo do trabalho:</h4>
 O objetivo deste exercício é fixar os conceitos envolvidos na utilização do “Maven” entender os
